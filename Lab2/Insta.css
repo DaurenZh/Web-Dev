@@ -169,15 +169,13 @@ main {
     height: 40px;
 }
 
-@media (min-width: 876px) {
-    .phones-container {
-        display: block;
-        margin-right: 32px;
-    }
+.phones-container {
+    display: block;
+    margin-right: 32px;
+}
 
-    .phones-container img {
-        max-width: 380px;
-    }
+.phones-container img {
+    max-width: 380px;
 }
 
 /* footer {
