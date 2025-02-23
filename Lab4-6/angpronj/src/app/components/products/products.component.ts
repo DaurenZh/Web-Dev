@@ -14,70 +14,70 @@ export class ProductsComponent {
       name: 'Книга пяти колец',
       description: 'Трактат о стратегии и боевом искусстве, написанный легендарным самураем Миямото Мусаси.',
       rating: 5,
-      image: 'Lab4/angpronj/src/assets/86435996336158.jpg',
+      images: ['assets/images/1.jpg'],
       link: 'https://kaspi.kz/shop/p/mijamoto-m-kniga-pjati-kolets-121012419/?c=750000000'
     },
     {
       name: 'Государство',
       description: 'Философский диалог Платона, в котором обсуждается природа справедливости и идеальное государство.',
       rating: 5,
-      image: '/assets/3.jpg',
+      images: ['assets/images/3.jpg'],
       link: 'https://kaspi.kz/shop/p/platon-gosudarstvo-100306569/?c=750000000'
     },
     {
       name: 'Политика',
       description: 'Трактат Аристотеля, посвященный устройству государства и политическим системам.',
       rating: 5,
-      image: '/assets/64089505529886.jpg',
+      images: ['assets/images/4.jpg'],
       link: 'https://kaspi.kz/shop/p/aristotel-politika-100625178/?c=750000000'
     },
     {
       name: 'Человеческое, слишком человеческое',
       description: 'Книга Ницше, в которой он анализирует мораль, религию и культуру с позиции свободного духа.',
       rating: 5,
-      image: 'assets/1.jpg',
+      images: ['assets/images/5.jpg'],
       link: 'https://kaspi.kz/shop/p/nitsshe-f-chelovecheskoe-slishkom-chelovecheskoe-100423083/?c=750000000'
     },
     {
       name: 'Воля к власти',
       description: 'Философские заметки Ницше о власти, морали и развитии сверхчеловека.',
       rating: 5,
-      image: '../assets/64154090569758.jpg',
+      images: ['assets/images/6.jpg'],
       link: 'https://kaspi.kz/shop/p/nitsshe-f-v-volja-k-vlasti-102023277/?c=750000000'
     },
     {
       name: 'О скоротечности жизни',
       description: 'Философские размышления Сенеки о ценности времени и искусстве жить осознанно.',
       rating: 5,
-      image: '/assets/64457737961502.jpg',
+      images: ['/assets/images/7.jpg'],
       link: 'https://kaspi.kz/shop/p/seneka-l-a-o-skorotechnosti-zhizni-105773469/?c=750000000'
     },
     {
       name: 'Наедине с собой',
       description: 'Дневниковые записи римского императора Марка Аврелия, пропитанные стоицизмом и мудростью.',
       rating: 5,
-      image: '/assets/64073770991646.jpg',
+      images: ['/assets/images/8.jpg'],
       link: 'https://kaspi.kz/shop/p/avrelii-m-naedine-s-soboi-101133476/?c=750000000'
     },
     {
       name: 'Государь',
       description: 'Знаменитый трактат Макиавелли о политике, власти и управлении государством.',
       rating: 5,
-      image: '/assets/2.jpg',
+      images: ['/assets/images/9.jpg'],
       link: 'https://kaspi.kz/shop/p/makiavelli-n-gosudar-o-voennom-iskusstve-100313865/?c=750000000'
     },
     {
       name: 'Нравственные письма к Луцилию',
       description: 'Сборник писем Сенеки, в которых он рассуждает о добродетели, мудрости и жизненных трудностях.',
       rating: 5,
-      image: '/assets/63975583449118.jpg',
+      images: ['/assets/images/10.jpg'],
       link: 'https://kaspi.kz/shop/p/seneka-nravstvennye-pis-ma-k-lutsiliju-100271302/?c=750000000'
     },
     {
       name: 'По ту сторону добра и зла',
       description: 'Ницше подвергает критике традиционную мораль и предлагает новую философию жизни.',
       rating: 5,
-      image: 'assets/4.jpg',
+      images: ['assets/images/2.jpg'],
       link: 'https://kaspi.kz/shop/p/nitsshe-f-po-tu-storonu-dobra-i-zla-100625063/?c=750000000'
     }
   ];
