@@ -21,7 +21,7 @@ export class ProductsComponent {
       description: 'Трактат о стратегии и боевом искусстве, написанный легендарным самураем Миямото Мусаси.',
       rating: 5,
       likes: 0,
-      images: ['assets/images/1.jpg'],
+      images: ['assets/images/10.jpg'],
       link: 'https://kaspi.kz/shop/p/mijamoto-m-kniga-pjati-kolets-121012419/?c=750000000'
     },
     {
@@ -41,7 +41,7 @@ export class ProductsComponent {
       description: 'Трактат Аристотеля, посвященный устройству государства и политическим системам.',
       rating: 5,
       likes: 0,
-      images: ['assets/images/4.jpg'],
+      images: ['assets/images/7.jpg'],
       link: 'https://kaspi.kz/shop/p/aristotel-politika-100625178/?c=750000000'
     },
     {
@@ -51,7 +51,7 @@ export class ProductsComponent {
       description: 'Книга Ницше, в которой он анализирует мораль, религию и культуру с позиции свободного духа.',
       rating: 5,
       likes: 0,
-      images: ['assets/images/5.jpg'],
+      images: ['assets/images/1.jpg'],
       link: 'https://kaspi.kz/shop/p/nitsshe-f-chelovecheskoe-slishkom-chelovecheskoe-100423083/?c=750000000'
     },
     {
@@ -61,7 +61,7 @@ export class ProductsComponent {
       description: 'Философские заметки Ницше о власти, морали и развитии сверхчеловека.',
       rating: 5,
       likes: 0,
-      images: ['assets/images/6.jpg'],
+      images: ['assets/images/8.jpg'],
       link: 'https://kaspi.kz/shop/p/nitsshe-f-v-volja-k-vlasti-102023277/?c=750000000'
     },
     {
@@ -71,7 +71,7 @@ export class ProductsComponent {
       description: 'Философские размышления Сенеки о ценности времени и искусстве жить осознанно.',
       rating: 5,
       likes: 0,
-      images: ['/assets/images/7.jpg'],
+      images: ['/assets/images/9.jpg'],
       link: 'https://kaspi.kz/shop/p/seneka-l-a-o-skorotechnosti-zhizni-105773469/?c=750000000'
     },
     {
@@ -81,7 +81,7 @@ export class ProductsComponent {
       description: 'Дневниковые записи римского императора Марка Аврелия, пропитанные стоицизмом и мудростью.',
       rating: 5,
       likes: 0,
-      images: ['/assets/images/8.jpg'],
+      images: ['/assets/images/6.jpg'],
       link: 'https://kaspi.kz/shop/p/avrelii-m-naedine-s-soboi-101133476/?c=750000000'
     },
     {
@@ -91,7 +91,7 @@ export class ProductsComponent {
       description: 'Знаменитый трактат Макиавелли о политике, власти и управлении государством.',
       rating: 5,
       likes: 0,
-      images: ['/assets/images/9.jpg'],
+      images: ['/assets/images/2.jpg'],
       link: 'https://kaspi.kz/shop/p/makiavelli-n-gosudar-o-voennom-iskusstve-100313865/?c=750000000'
     },
     {
@@ -101,7 +101,7 @@ export class ProductsComponent {
       description: 'Сборник писем Сенеки, в которых он рассуждает о добродетели, мудрости и жизненных трудностях.',
       rating: 5,
       likes: 0,
-      images: ['/assets/images/10.jpg'],
+      images: ['/assets/images/5.jpg'],
       link: 'https://kaspi.kz/shop/p/seneka-nravstvennye-pis-ma-k-lutsiliju-100271302/?c=750000000'
     },
     {
@@ -111,7 +111,7 @@ export class ProductsComponent {
       description: 'Ницше подвергает критике традиционную мораль и предлагает новую философию жизни.',
       rating: 5,
       likes: 0,
-      images: ['assets/images/2.jpg'],
+      images: ['assets/images/4.jpg'],
       link: 'https://kaspi.kz/shop/p/nitsshe-f-po-tu-storonu-dobra-i-zla-100625063/?c=750000000'
     }
   ];
