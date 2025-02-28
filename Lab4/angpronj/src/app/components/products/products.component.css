@@ -1,0 +1,234 @@
+/* Main containers and overall structure */
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  padding: 32px;
+  background: #f8f9fa;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #eaeaea;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Images and typography */
+.product-image {
+  width: 140px;
+  height: 180px;
+  border-radius: 8px;
+  margin: 0 auto 16px;
+  object-fit: cover;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+  font-size: 18px;
+  color: #2d3748;
+  margin-bottom: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.product-card p {
+  font-size: 15px;
+  color: #4a5568;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.rating {
+  font-size: 16px;
+  color: #f6ad55;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.likes {
+  font-size: 16px;
+  color: #e53e3e;
+  font-weight: 600;
+  margin: 4px 0 12px;
+}
+
+/* Category selection styling */
+.category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0;
+  padding: 0 20px;
+}
+
+.category-buttons {
+  background: white;
+  padding: 16px 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.category-buttons label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-right: 8px;
+}
+
+.category-buttons select {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e0;
+  background-color: #f8f9fa;
+  font-size: 15px;
+  color: #4a5568;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s;
+  min-width: 180px;
+}
+
+.category-buttons select:hover {
+  border-color: #a0aec0;
+}
+
+.category-buttons select:focus {
+  border-color: #3182ce;
+  box-shadow: 0 0 0 2px rgba(49, 130, 206, 0.2);
+}
+
+/* Links styling */
+.product-link {
+  display: inline-block;
+  margin: 12px 0;
+  text-decoration: none;
+  font-size: 15px;
+  color: #3182ce;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.product-link:hover {
+  color: #2c5282;
+}
+
+/* Action buttons (Like and Delete) */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.like-button, .delete-button {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.like-button {
+  background-color: #f7fafc;
+  color: #4a5568;
+}
+
+.like-button:hover {
+  background-color: #fed7d7;
+  color: #e53e3e;
+  border-color: #fed7d7;
+}
+
+.delete-button {
+  background-color: #f7fafc;
+  color: #4a5568;
+}
+
+.delete-button:hover {
+  background-color: #e2e8f0;
+  color: #1a202c;
+}
+
+/* Share buttons */
+.share-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+  margin-top: auto;
+}
+
+.share-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.whatsapp-button {
+  background: #25D366;
+  color: white;
+}
+
+.telegram-button {
+  background: #0088cc;
+  color: white;
+}
+
+.share-button:hover {
+  filter: brightness(90%);
+}
+
+/* Page title styling */
+h1 {
+  text-align: center;
+  color: #2d3748;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 32px 0 16px;
+  padding-bottom: 8px;
+  position: relative;
+}
+
+h1:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(to right, #3182ce, #4299e1);
+  border-radius: 3px;
+}
