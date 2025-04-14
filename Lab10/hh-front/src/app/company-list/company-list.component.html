@@ -1,0 +1,27 @@
+<div class="companies">
+    <h2 class="page-title">Companies</h2>
+    
+    <div class="company-list">
+      <div *ngFor="let company of companies" 
+           class="company-card" 
+           (click)="selectCompany(company)">
+        <h3>{{company.name}}</h3>
+        <p>{{company.city}}</p>
+        <p>{{company.address}}</p>
+      </div>
+    </div>
+  
+    <div *ngIf="selectedCompany" class="vacancies-section">
+      <h3>Vacancies at {{selectedCompany.name}}</h3>
+      <div *ngIf="vacancies.length > 0; else noVacancies">
+        <div *ngFor="let vacancy of vacancies" class="vacancy-card">
+          <h4>{{vacancy.name}}</h4>
+          <p class="vacancy-salary">Salary: {{vacancy.salary | currency:'USD':'symbol-narrow':'1.0-0'}}</p>
+          <p class="vacancy-description">{{vacancy.description}}</p>
+        </div>
+      </div>
+      <ng-template #noVacancies>
+        <p class="no-vacancies">No vacancies available at this company.</p>
+      </ng-template>
+    </div>
+  </div>
